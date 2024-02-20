@@ -1,13 +1,20 @@
 import React, { Component } from 'react';
-import Hello from './components/Hello.js'
+// import ScrollableTabsButtonForce from './components/Navigation/Navigation';
+// import ProjectCardList from './components/ProjectCardList/ProjectCardList';
+// import Experience from './components/Experience/Experience';
+// import Skill from './components/Skill/Skill';
+import ContactForm from './components/Contact/Contact';
 import './App.css';
-import { render } from 'react-dom';
 
 class App extends Component {
 	render() {
 		return (
 			<React.Fragment>
-				<Hello/>
+				{/* <ScrollableTabsButtonForce />
+				<ProjectCardList />
+				<Experience />
+				<Skill /> */}
+				<ContactForm />
 			</React.Fragment>
 		);
 	}
